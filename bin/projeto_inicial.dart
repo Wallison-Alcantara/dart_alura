@@ -1,9 +1,12 @@
 void main(List<String> arguments) {
-  int idade = 20;
+  int idade = 20; // tipagem estática ( o Dart é possui tipagem mista)
+  //var idade = 30; o proprio dart identifica a variavel tipagem dinamica
   double altura = 1.91;
   bool geek = false;
-  String nome = 'Wallison';
-  String apelido = 'Wall';
+  const String nome = 'Wallison';
+  final String apelido;
+  apelido = 'Wall';
+  //apelido = 'teste'; este daria erro
   if(geek){
     print('ele é nerd');
     print(geek);
@@ -17,7 +20,7 @@ void main(List<String> arguments) {
     print(listanomes[0]);
     print(listanomes.length); //tamanho da lista
 
-    List<dynamic> wallison = [20,1.91,true,'Wallison','Wall'];
+    List<dynamic> wallison = [idade,altura,geek,nome,apelido];
     print(wallison);
     print('Eu sou ${wallison[3]}, tenho ${wallison[0]} anos, '
         'tenho ${wallison[1]} metros de altura. \n'

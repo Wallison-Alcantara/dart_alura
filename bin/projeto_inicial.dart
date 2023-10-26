@@ -27,4 +27,19 @@ void main(List<String> arguments) {
         'Meu apelido é: ${wallison[4]} e sou geek? ${wallison[2]}');
   }
 
+  for(int i=0; i<5; i++){
+    print('Conclui $i voltas');
+  }
+
+  int energia1 = 100;
+  while(energia1>0){
+    print("Mias uma repetição");
+    energia1 = energia1 - 6;
+  }
+
+  int energia2 = 100;
+  do{
+    print("Mais uma repetição");
+    energia2 = energia2 - 6;
+  }while(energia2>0);
 }

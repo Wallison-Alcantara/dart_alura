@@ -28,6 +28,7 @@ void main(List<String> arguments) {
 
     List<dynamic> wallison = [idade, altura, geek, nome, apelido];
     print(wallison);
+
     print('Eu sou ${wallison[3]}, tenho ${wallison[0]} anos, '
         'tenho ${wallison[1]} metros de altura. \n'
         'Meu apelido é: ${wallison[4]} e sou geek? ${wallison[2]}');
@@ -42,7 +43,6 @@ void main(List<String> arguments) {
     print("Mias uma repetição");
     energia1 = energia1 - 6;
   }
-
   int energia2 = 100;
   do {
     print("Mais uma repetição");

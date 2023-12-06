@@ -1,7 +1,7 @@
 void main(){
   String teste= '20';
   int.parse(teste); // aqui pegou o valor como Int
-  // porém, após a linhda de cima, ela volta a ser String
+  // porém, após a linha de cima, ela volta a ser String
 
   // String to int
   var one = int.parse('1');
